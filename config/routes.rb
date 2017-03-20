@@ -20,4 +20,6 @@ resources :products do
   end
 
   resources :cart_items
+
+  resources :orders
 end
