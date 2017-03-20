@@ -13,6 +13,6 @@ class ProductsController < ApplicationController
     flash[:notice] = "成功加入购物车"
     redirect_to :back
 
-    #redirect_to :back, notice: "测试加入购物车"
+    #redirect_to :back, warning: "测试加入购物车"
   end
 end
